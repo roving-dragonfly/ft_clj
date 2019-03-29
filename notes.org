@@ -1,0 +1,15 @@
+* Data structures
+
+All data types grouped under one union.
+#+BEGIN_SRC c
+struct {
+	union type	type;
+	void		*ref;
+	
+};
+#+END_SRC
+
+
+* AST
+** Tokenization
+One pass, generates a stack of t_token
